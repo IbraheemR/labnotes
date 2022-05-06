@@ -1,0 +1,148 @@
+table {
+  @extend .table;
+  @extend .table-striped;
+}
+
+blockquote {
+  @extend .blockquote;
+}
+
+img {
+  @extend .img-fluid;
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  border-bottom: 0.125rem solid hsl(0, 0%, 30%);
+}
+
+.archive-year {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.archive-date {
+  float: right;
+  margin-left: 1rem;
+}
+
+.archive-item {
+  margin-bottom: 0.5rem;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-icons {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.footer-icon-links {
+  text-decoration: none;
+  color: #212529;
+}
+
+.footer-icon-links:hover,
+.footer-icon-links:focus {
+  text-decoration: none;
+  color: #212529;
+}
+
+.archive-title {
+  color: #212529;
+}
+
+.highlight {
+  background-color: #272822;
+}
+
+pre.highlight {
+  padding: 1rem;
+}
+
+.dark-avatar {
+  display: none !important;
+}
+
+.light-avatar,
+.dark-avatar {
+  margin-right: 0.25rem !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer-icon-links {
+    text-decoration: none;
+    color: #e1e1e1;
+  }
+
+  .footer-icon-links:hover,
+  .footer-icon-links:focus {
+    text-decoration: none;
+    color: #e1e1e1;
+  }
+
+  .archive-title {
+    color: #e1e1e1;
+  }
+
+  .light-avatar {
+    display: none !important;
+  }
+  .dark-avatar {
+    display: inline-block !important;
+  }
+}
+
+// My customisations 
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+  
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hammersmith One', sans-serif;
+  margin-bottom: 0.5em;
+}
+
+thead, .navbar, #post-date {
+  font-family: 'Hammersmith One', sans-serif;
+
+}
+
+p {
+  margin-left: 1rem;
+}
+
+blockquote {
+  border-left: 0.5rem solid #212529;
+}
+
+@media (prefers-color-scheme: dark) {
+  blockquote {
+    border-left-color: #e1e1e1;
+  }
+}
+
+code {
+  background-color: #2c2f2a;
+  padding: 0.1em 0.2em;
+
+}
+
+pre code {
+  background-color: transparent;
+}
+
+body {
+  color: #212529;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e1e1e1;
+  }
+}
