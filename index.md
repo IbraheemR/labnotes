@@ -3,20 +3,18 @@ title: Home
 layout: default
 ---
 
-## The vast majority of problems can be solved with a little bit of Googling and patience.
+## Most problems are solved with a little Googling and patience.
 
-However for some problems finding the solution requires extensive forum-trawling, debugging and keyboard slamming.
+However finding some solutions requires extensive forum-trawling, debugging and keyboard slamming (even if the solution itself is super simple)
 
 This can be because of:
 - Poor documentation
 - Esoteric subject matter
-- An extreemly specific combination of hardware, software stack, config options, etc. (especially for Linux)
+- An extremely specific situation (e.g combination of hardware, software, config)
+- Not knowing the words people usually use to describe your problem.
 
-I aim to document problems I've solved which are "non-trivial", as well the context in which I encountered them (which is just as important).
+Below are solutions which were unreasonably hard to find, and how I tried (and failed) to find them.
 
-**Hopefully they help someone at somepoint.**
-
-
-
+**Hopefully this makes things easier for someone at somepoint.**
 
 {% include archive.html %}

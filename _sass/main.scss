@@ -146,3 +146,11 @@ body {
     color: #e1e1e1;
   }
 }
+
+:root {
+  font-size: 18px;
+}
+
+body > .container{
+  max-width: 1000px;
+}
