@@ -16,8 +16,6 @@ An error message like the followning, which would happen for any gradle task.
 Additionally, could not even run `gradle clean`, which usually fixes weird errors.
 
 ```
-
-```
 Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
  at [Source: UNKNOWN; line: 1, column: 2]
 
